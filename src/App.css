@@ -130,7 +130,7 @@ nav {
   opacity: .7;
 }
 
-#home:hover {
+#home p:hover {
   opacity: 1;
 }
 
