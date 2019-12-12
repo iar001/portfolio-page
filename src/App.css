@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --primefont: 'Raleway', sans-serif;
+  --secfont: 'Open Sans', sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: var(--primefont);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.10);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  background:url('https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.72);
+  height: 72vh;
+
+  height: 80vh;
+  display: grid;
+  grid-template-rows: auto 420px;
+} 
+
+header h1 {
+  font-weight: 900;
+  font-size: 3.5em;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 150px; 
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 15px;
+  opacity: .8;
+}
+
+.section {
+  font-family: var(--secfont);
+  padding: 30px;
+  text-align: center;
+  height: 800px;
+  background-color: #C6CAD3;
+  color: rgb(29, 27, 27);
+} 
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home {
+  display: inline-block;
+  width: 175px;
+  vertical-align: middle;
+  margin-left: 25px;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.rightSide p {
+  display: line-block;
+  margin: 55px;
+  cursor: pointer;
+  opacity: .7;
+}
+
+#home:hover {
+  opacity: 1;
+}
+
+.rightSide p:hover {
+  opacity: 1;
+}
+
+#home::after {
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  height: 3px;
+  width: 36%;
+  transform: scale(0);
+  transition: ease-in-out 300ms;
+}
+
+.rightSide p::after {
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  height: 3px;
+  width: 100%;
+  transform: scale(0);
+  transition: ease-in-out 300ms;
+}
+
+#home:hover::after {
+  transform: scale(1);
+}
+
+.rightSide p:hover::after {
+  transform: scale(1);
+}
+
