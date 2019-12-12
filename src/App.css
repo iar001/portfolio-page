@@ -144,6 +144,7 @@ nav {
   background-color: #ffffff;
   height: 3px;
   width: 36%;
+  margin-left: 55px;
   transform: scale(0);
   transition: ease-in-out 300ms;
 }
@@ -254,6 +255,11 @@ input:hover, textarea:hover {
 
 #portfolio {
   height: 90vh;
+}
+
+#portfolio-links {
+  display: flex;
+  justify-content: space-between;
 }
 
 
