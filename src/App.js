@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import { Route, Link, withRouter } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
-import ContactForm from './components/ContactForm'
+import ContactForm from './components/ContactForm';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio'
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +19,11 @@ class App extends React.Component {
     return (
       <div className="App" >
         <NavBar />
-        <ContactForm />
+        <AboutMe />
+        <Portfolio />
+        <Route exact path="/contact" render={() =>
+          <ContactForm />
+        } />
       </div>
     );
   }

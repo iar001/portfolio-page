@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
 
 
 export default function NavBar() {
@@ -11,10 +12,12 @@ export default function NavBar() {
         <div className='rightSide'>
           <p>About Me</p>
           <p>Portfolio</p>
-          <p>Contact</p>
+          <Link to={'/contact'}>
+            <p>Contact</p>
+          </Link>
         </div>
       </nav>
-      <h1>Junior Software Engineer</h1>
+      <h1>Software Engineer</h1>
     </header>
   )
 }
