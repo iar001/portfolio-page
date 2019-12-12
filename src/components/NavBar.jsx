@@ -4,17 +4,23 @@ import { Link, withRouter } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <header>
+    <header id="hello">
       {/* Your nav bar goes here */}
       {/* Your 'Web Developer' <p> tag goes here too */}
       <nav>
-        <p id='home' >Home</p>
+        <a href="#hello">
+          <p id="home">Home</p>
+        </a>
         <div className='rightSide'>
-          <p>About Me</p>
-          <p>Portfolio</p>
-          <Link to={'/contact'}>
+          <a href="#about-me">
+            <p>About Me</p>
+          </a>
+          <a href="#portfolio">
+            <p>Portfolio</p>
+          </a>
+          <a href="#contact">
             <p>Contact</p>
-          </Link>
+          </a>
         </div>
       </nav>
       <h1>Software Engineer</h1>

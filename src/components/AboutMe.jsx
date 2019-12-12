@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 
 export default function AboutMe() {
   return (
-    <div>
+    <div id="about-me">
       This is About Me
     </div>
   )

@@ -21,9 +21,9 @@ class App extends React.Component {
         <NavBar />
         <AboutMe />
         <Portfolio />
-        <Route exact path="/contact" render={() =>
-          <ContactForm />
-        } />
+
+        <ContactForm />
+
       </div>
     );
   }
