@@ -19,9 +19,8 @@ class App extends React.Component {
     return (
       <div className="App" >
         <NavBar />
-        <AboutMe />
         <Portfolio />
-
+        {/* <AboutMe /> */}
         <ContactForm />
 
       </div>

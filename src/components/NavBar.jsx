@@ -30,7 +30,31 @@ export default function NavBar() {
         </div>
         <div id="body-main-page-right">
           <h2>Software Engineer</h2>
-          <p>I am a structured products trader turned software engineer with a passion for solving problems</p>
+          <p>I am a fullstack software engineer with a background in finance. I have a unique skill set that combines computer programming with
+            financial analysis to tackle complex problems with simple solutions. I am a resourceful and loyal person who is always looking to
+            contribute to my team and those close around me.</p>
+          <div>
+            <div id="white-space">
+
+            </div>
+            <h2>Programming Skills</h2>
+            <div id="skills">
+              <div>
+                <p>Javascript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Ruby</p>
+                <p>Pyton</p>
+              </div>
+              <div>
+                <p>React</p>
+                <p>Ruby on Rails</p>
+                <p>Express</p>
+                <p>SQL</p>
+                <p>Django</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
