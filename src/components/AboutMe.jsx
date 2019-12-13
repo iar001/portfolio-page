@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 export default function AboutMe() {
   return (
     <div id="about-me">
-      This is About Me
+      <h2>About Me</h2>
       <div>
         <h1>Skills</h1>
         <p>Javascript</p>
