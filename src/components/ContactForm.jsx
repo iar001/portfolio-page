@@ -4,18 +4,31 @@ export default function ContactForm() {
   return (
 
     <section id="contact">
-      <h4>Contact me at 347-525-7084, ian.a.rappaport@gmail.com, or below!</h4>
-      <h2>Contact</h2>
+      <div>
+        <h2>Contact Information</h2>
+      </div>
+      <div id="white-space-contact"> 
 
-      <form>
-        <input id="name" placeholder="Name" />
+      </div>
+      <div id="contact-flex">
+        <div>
+          <h3>Phone Number: (347) 525 7084</h3>
+          <h3>Email: ian.a.rappaport@gmail.com</h3>
+        </div>
 
-        <input id="email" placeholder="Email" />
+        <div>
+          <h2>Send Message</h2>
+          <form>
+            <input id="name-input" placeholder="Name" />
 
-        <textarea placeholder="Message" />
+            <input id="email-input" placeholder="Email" />
 
-        <input type="submit" />
-      </form>
+            <textarea id="message-input" placeholder="Message" />
+
+            <input id="submit-button" type="submit" />
+          </form>
+        </div>
+      </div>
     </section>
 
   )

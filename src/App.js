@@ -5,7 +5,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import ContactForm from './components/ContactForm';
 import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/Portfolio';
+import ContactForm2 from './components/ContactForm2';
 
 class App extends React.Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Portfolio />
         {/* <AboutMe /> */}
         <ContactForm />
+        {/* <ContactForm2 /> */}
 
       </div>
     );
