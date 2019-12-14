@@ -188,12 +188,44 @@ nav p {
 }
 
 #white-space {
-  height: 114px;
+  height: 50px;
 }
 
 #skills {
-  display: flex;
   justify-content: space-around;
+  align-items: center;
+  
+}
+
+#skills img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  display: center;
+}
+
+#skills img:hover {
+  opacity: 1;
+}
+
+#skills p {
+  opacity: 0.7;
+}
+
+#skills p:hover {
+  opacity: 1;
+}
+
+
+
+
+.skills-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
 }
 
 
@@ -313,6 +345,14 @@ input:hover, textarea:hover {
 #portfolio img {
   height: 300px;
   width: 400px;
+}
+
+#skills-displayed {
+}
+
+#skills-displayed img {
+  height: 100px;
+  width: 100px;
 }
 
 #portfolio-links {

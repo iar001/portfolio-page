@@ -7,14 +7,20 @@ export default function AboutMe() {
       <h2>About Me</h2>
       <div id="skill-set">
         <div>
-          
+
         </div>
         <h1>Programming Skills</h1>
-        <p>Javascript</p>
+        <div>
+          <p>Javascript</p>
+          <img src="https://cdn.svgporn.com/logos/javascript.svg" />
+        </div>
         <p>HTML</p>
         <p>CSS</p>
         <p>React</p>
-        <p>Ruby</p>
+        <div>
+          <p>Ruby</p>
+          <img src="https://media.threatpost.com/wp-content/uploads/sites/103/2013/06/07044652/ruby.png" />
+        </div>
         <p>Python</p>
         <p>Ruby on Rails</p>
         <p>Express</p>

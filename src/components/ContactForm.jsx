@@ -12,6 +12,7 @@ export default function ContactForm() {
       </div>
       <div id="contact-flex">
         <div>
+          <h2>Contact Info</h2>
           <h3>Phone Number: (347) 525 7084</h3>
           <h3>Email: ian.a.rappaport@gmail.com</h3>
         </div>
