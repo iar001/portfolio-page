@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import IanRappaportResume from '../IanRappaportResume.pdf';
 
 export default function ContactForm() {
   return (
@@ -15,6 +16,11 @@ export default function ContactForm() {
           <h2>Contact Info</h2>
           <h3>Phone Number: (347) 525 7084</h3>
           <h3>Email: ian.a.rappaport@gmail.com</h3>
+          <a
+            href={IanRappaportResume}
+            target="_blank">
+            Resume
+            </a>
         </div>
 
         <div>

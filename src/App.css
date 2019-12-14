@@ -355,6 +355,11 @@ input:hover, textarea:hover {
   width: 100px;
 }
 
+#the-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
 #portfolio-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
