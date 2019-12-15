@@ -126,7 +126,7 @@ nav p {
   margin-right: 55px;
 }
 
-.rightSide p {
+.rightSide p, #skils-displayed h3 {
   display: line-block;
   margin: 55px;
   cursor: pointer;
@@ -137,7 +137,7 @@ nav p {
   opacity: 1;
 }
 
-.rightSide p:hover {
+.rightSide p:hover, #skills-displayed h3:hover {
   opacity: 1;
 }
 
@@ -166,7 +166,7 @@ nav p {
   transform: scale(1);
 }
 
-.rightSide p:hover::after {
+.rightSide p:hover::after, #skills-displayed h3:hover::after {
   transform: scale(1);
 }
 
@@ -247,6 +247,12 @@ body {
 #contact-flex {
   display: flex;
   justify-content: space-evenly;
+  font-family: var(--primefont);
+  margin: 10px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  transition: 0.3s;
+
 }
 
 h2 {
@@ -348,8 +354,9 @@ input:hover, textarea:hover {
   width: 400px;
 }
 
-#skills-displayed {
-}
+
+
+
 
 #skills-displayed img {
   height: 100px;
@@ -390,6 +397,8 @@ input:hover, textarea:hover {
   padding: 15px;
   opacity: .8;
 }
+
+
 
 
 

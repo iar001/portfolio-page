@@ -30,7 +30,7 @@ export default class ContactForm extends React.Component {
   }
 
   render() {
-    const {status} = this.state
+    const { status } = this.state
     return (
 
       <section id="contact">
@@ -43,8 +43,19 @@ export default class ContactForm extends React.Component {
         <div id="contact-flex">
           <div>
             <h2>Contact Info</h2>
-            <h3>Phone Number: (347) 525 7084</h3>
-            <h3>Email: ian.a.rappaport@gmail.com</h3>
+            <div id="white-space-contact">
+
+            </div>
+            <h3>Phone Number</h3>
+            <h3> (347) 525 7084</h3>
+            <div id="white-space-contact">
+
+            </div>
+            <h3>Email </h3>
+            <h3>ian.a.rappaport@gmail.com</h3>
+            <div id="white-space-contact">
+
+            </div>
             <a
               href={IanRappaportResume}
               target="_blank">
