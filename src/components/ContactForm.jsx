@@ -72,14 +72,14 @@ export default class ContactForm extends React.Component {
             >
               <input
                 id="name-input"
-                placeholder="Name"
+                placeholder="Your Name"
                 type="name"
                 name="name"
               />
 
               <input
                 id="email-input"
-                placeholder="Email"
+                placeholder="Your Email"
                 type="email"
                 name="email"
               />

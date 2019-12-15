@@ -10,10 +10,14 @@ export default function NavBar() {
         <a href="#hello">
           <p id="home">Home</p>
         </a>
+        <div>
+          <p>Ian Rappaport</p>
+        </div>
         <div className='rightSide'>
-          <a href="#about-me">
-            <p>About Me</p>
-          </a>
+          {/* <a href="#about-me">
+            <p></p>
+          </a> */}
+
           <a href="#portfolio">
             <p>Portfolio</p>
           </a>
@@ -31,7 +35,7 @@ export default function NavBar() {
         <div id="body-main-page-right">
           <h2>Software Engineer</h2>
           <p>I am a fullstack software engineer with a background in finance. I have a unique skill set that combines computer programming with
-            financial analysis to tackle complex problems with simple solutions. I am a resourceful and loyal person who is always looking to
+            financial analysis to find simple solutions to complex problems. I am a resourceful and loyal person who is always looking to
             contribute to my team and those close around me.</p>
           <div>
             <div id="white-space">
