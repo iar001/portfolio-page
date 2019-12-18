@@ -433,3 +433,89 @@ input:hover, textarea:hover {
 #contact-form-2 {
   background: center/cover no-repeat url(https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
+
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 812px)
+    and (-webkit-device-pixel-ratio : 3) { 
+
+
+      nav a {
+        display: none;
+      }
+      nav p {
+        width: 25vw;
+      }
+
+      .rightSide {
+        display: none;
+      }
+      .body-main-page {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 500px;
+      }
+
+
+
+      #body-main-page-right p,h2 {
+        display: none;
+
+      }
+
+      #skills {
+        margin-left: 35vw;
+   
+      }
+
+      #skills-row img {
+        margin: 2vw;
+      }
+
+      #portfolio-links {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+      }
+
+      #portfolio img {
+        width: 100vw;
+      }
+
+      #skills-displayed {
+        width: 100vw;
+      }
+
+      #the-skills img {
+        width: 25vw;
+      }
+      #contact-flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        background: 100vw;
+      }
+
+      #white-space-contact {
+        display: none;
+      }
+
+      #contact-flex-links img {
+        width: 20vw;
+        height: 20vw;
+        margin: 1vw;
+      }
+
+      form {
+        width: 70vw;
+      }
+    
+      /* header {
+        width: 0vw;
+      }
+
+      #home {
+        width: 30vw;
+      }
+     */
+    }
