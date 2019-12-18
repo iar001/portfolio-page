@@ -75,7 +75,7 @@ export default class ContactForm extends React.Component {
                 target="_blank"
                 href="https://github.com/iar001"
               >
-                <img src="https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg" />
+                <img src="https://image.flaticon.com/icons/png/512/25/25231.png" />
               </a>
 
               <a
