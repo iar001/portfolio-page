@@ -42,25 +42,50 @@ export default class ContactForm extends React.Component {
         </div>
         <div id="contact-flex">
           <div>
-            <h2>Contact Info</h2>
+            <h2>Links</h2>
             <div id="white-space-contact">
 
             </div>
-            <h3>Phone Number</h3>
-            <h3> (347) 525 7084</h3>
+           
             <div id="white-space-contact">
 
             </div>
-            <h3>Email </h3>
-            <h3>ian.a.rappaport@gmail.com</h3>
-            <div id="white-space-contact">
 
-            </div>
-            {/* <a
+           
+            <div id="contact-flex-links">
+
+
+              {/* <a
               href={IanRappaportResume}
               target="_blank">
               Resume
             </a> */}
+              <a
+                href="tel:347-525-7084"
+              >
+                <img src="https://image.flaticon.com/icons/png/512/977/977411.png"/>
+              </a>
+              <a
+                target="_blank"
+                href="mailto:ian.a.rappaport@gmail.com">
+                <img src="https://image.flaticon.com/icons/png/512/37/37572.png" />
+              </a>
+
+              <a
+                target="_blank"
+                href="https://github.com/iar001"
+              >
+                <img src="https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg" />
+              </a>
+
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/ian-rappaport-cfa-58312322/"
+              >
+
+                <img src="https://image.flaticon.com/icons/png/512/174/174857.png" />
+              </a>
+            </div>
           </div>
 
           <div>

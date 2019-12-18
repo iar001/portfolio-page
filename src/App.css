@@ -255,6 +255,16 @@ body {
 
 }
 
+#contact-flex-links {
+  display: flex;
+ 
+}
+
+#contact-flex-links img {
+  height: 100px;
+  width: 100px;
+}
+
 h2 {
   margin:0 !important;
   .contact h2 {
