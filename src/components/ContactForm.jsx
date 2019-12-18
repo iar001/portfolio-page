@@ -56,11 +56,11 @@ export default class ContactForm extends React.Component {
             <div id="white-space-contact">
 
             </div>
-            <a
+            {/* <a
               href={IanRappaportResume}
               target="_blank">
               Resume
-            </a>
+            </a> */}
           </div>
 
           <div>
