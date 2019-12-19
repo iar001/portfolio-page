@@ -526,10 +526,15 @@ input:hover, textarea:hover {
       }
 
 
-
+      #body-main-page-right {
+        margin-left: 8%;
+      }
       #body-main-page-right p,h2 {
         display: none;
+      }
 
+      #bla {
+        margin-left: 33%;
       }
 
       #skills {

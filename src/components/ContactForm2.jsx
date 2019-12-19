@@ -14,6 +14,7 @@ export default class ContactForm2 extends React.Component {
       <div id="projects">
         <h2>Portolio</h2>
         <div className="projects">
+          <h3 data-aos='fade-in' className='mobile-title'>Quips on Chips</h3>
           <a data-aos='fade-right' className='project' target='_blank' href="http://quipsonchips.surge.sh/">
             <div className="overlay">
             </div>
@@ -23,7 +24,7 @@ export default class ContactForm2 extends React.Component {
             <p>Review and rank your favorite snacks!</p>
           </a>
 
-          <h3 data-aos='fade-in' className='mobile-title'>Quips on Chips</h3>
+          <h3 data-aos='fade-in' className='mobile-title'>Quips on Chips Skills</h3>
           <a data-aos='fade-left' className='project' target='_blank' href="http://quipsonchips.surge.sh/">
             <div className="overlay">
             </div>
@@ -43,7 +44,7 @@ export default class ContactForm2 extends React.Component {
             <p>Find cheap places to stay and upload your pics</p>
           </a>
 
-          <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker</h3>
+          <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker Skills</h3>
           <a data-aos='fade-left' className='project' target='_blank' href="http://travelseekers.surge.sh/">
             <div className="overlay">
             </div>
@@ -61,7 +62,7 @@ export default class ContactForm2 extends React.Component {
             <hr></hr>
             <p>Use the Wizard for Stock Recommendations!</p>
           </a>
-          <h3 data-aos='fade-in' className='mobile-title'>Stock Wizard</h3>
+          <h3 data-aos='fade-in' className='mobile-title'>Stock Wizard Skills</h3>
           <a data-aos='fade-left' className='project' target='_blank' href="http://ianstockapplication.surge.sh/">
             <div className="overlay">
             </div>

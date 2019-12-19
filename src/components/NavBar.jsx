@@ -10,8 +10,8 @@ export default function NavBar() {
         <a href="#hello">
           <p id="home">Home</p>
         </a>
-        <div>
-          {/* <p>Ian Rappaport</p> */}
+        <div id="bla">
+          <p>Ian Rappaport</p>
         </div>
         <div className='rightSide'>
           {/* <a href="#about-me">
