@@ -18,7 +18,7 @@ export default function NavBar() {
             <p></p>
           </a> */}
 
-          <a href="#portfolio">
+          <a href="#projects">
             <p>Portfolio</p>
           </a>
           <a href="#contact">

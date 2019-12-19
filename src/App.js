@@ -30,10 +30,12 @@ class App extends React.Component {
     return (
       <div className="App" >
         <NavBar />
-        <Portfolio />
+        <ContactForm2 />
+       
         {/* <AboutMe /> */}
         <ContactForm />
-        <ContactForm2 />
+        {/* <Portfolio /> */}
+       
 
       </div>
     );
