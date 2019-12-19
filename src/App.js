@@ -7,6 +7,8 @@ import ContactForm from './components/ContactForm';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import ContactForm2 from './components/ContactForm2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -18,6 +20,12 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount=()=>{
+    AOS.init({
+      duration: 600,
+    });
+}
+
   render() {
     return (
       <div className="App" >
@@ -25,7 +33,7 @@ class App extends React.Component {
         <Portfolio />
         {/* <AboutMe /> */}
         <ContactForm />
-        {/* <ContactForm2 /> */}
+        <ContactForm2 />
 
       </div>
     );

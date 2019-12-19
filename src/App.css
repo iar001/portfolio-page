@@ -436,6 +436,73 @@ input:hover, textarea:hover {
 }
 
 
+/* TESTING */
+/* #wrapper {
+  width: 500px;
+  height: 500px;
+  margin:  auto;
+}
+
+#quips-on-chips-experiment {
+  background-image: url(https://previews.123rf.com/images/niloo138/niloo1381503/niloo138150300006/38140413-potato-chips-and-snacks-on-shelves-in-a-supermarket.jpg);
+  color: rgba(71, 121, 94, .9);
+}
+
+#quips-on-chips-experiment::after {
+  content: 'Quips on Chips';
+} */
+
+.portfolio-experiment {
+  width: 200px;
+  height: 200px;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overlay */
+  box-shadow: 0 0 0 100px inset, 0 0 5px grey;
+  /* hover out transition */
+  transition: box-shadow 1s;
+  float: left;
+  margin: 10px;
+}
+
+
+/* portfolio-experimente names */
+
+.portfolio-experiment::after {
+  width: 80%;
+  height: 80%;
+  display: block;
+  white-space: pre;
+  font: 15pt 'sigmar one';
+  color: white;
+  border: 2px solid;
+  text-align: center;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* hover out transition */
+  transition: opacity 1s .5s;
+}
+
+
+/* reveal portfolio-experimente picture on hover */
+
+.portfolio-experiment:hover {
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 1s;
+}
+
+
+/* hide portfolio-experimente name on hover */
+
+.portfolio-experiment:hover::after {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
 @media only screen 
     and (min-device-width : 375px) 
     and (max-device-width : 812px)
