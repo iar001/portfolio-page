@@ -12,7 +12,7 @@ export default class ContactForm2 extends React.Component {
   render() {
     return (
       <div id="projects">
-        <h2>Portolio</h2>
+        <h2>Portfolio</h2>
         <div className="projects">
           <h3 data-aos='fade-in' className='mobile-title'>Quips on Chips</h3>
           <a data-aos='fade-right' className='project' target='_blank' href="http://quipsonchips.surge.sh/">
@@ -73,7 +73,7 @@ export default class ContactForm2 extends React.Component {
           </a>
 
         </div>
-        <div className="parallax"></div>
+        {/* <div className="parallax"></div> */}
       </div >
     )
   }

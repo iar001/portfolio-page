@@ -141,6 +141,10 @@ nav p {
   opacity: 1;
 }
 
+#bla {
+  display: none;
+}
+
 #home::after {
   content: "";
   display: block;
@@ -522,7 +526,7 @@ input:hover, textarea:hover {
       .body-main-page {
         display: grid;
         grid-template-columns: 1fr;
-        height: 500px;
+        height: 400px;
       }
 
 
@@ -535,6 +539,7 @@ input:hover, textarea:hover {
 
       #bla {
         margin-left: 33%;
+        display:block;
       }
 
       #skills {
