@@ -14,6 +14,26 @@ export default class ContactForm2 extends React.Component {
       <div id="projects">
         <h2>Portfolio</h2>
         <div className="projects">
+        <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker</h3>
+          <a data-aos='fade-right' className='project' target='_blank' href="http://travelseekers.surge.sh/">
+            <div className="overlay">
+            </div>
+            <img src="https://images.unsplash.com/photo-1503221043305-f7498f8b7888" alt="Travelseeker" />
+            <h3>TravelSeeker</h3>
+            <hr></hr>
+            <p>Find cheap places to stay and upload your pics</p>
+          </a>
+
+          <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker Skills</h3>
+          <a data-aos='fade-left' className='project' target='_blank' href="http://travelseekers.surge.sh/">
+            <div className="overlay">
+            </div>
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+            <h3>TravelSeeker Skills</h3>
+            <hr></hr>
+            <p>Express, React, JavaScript</p>
+          </a>
+          
           <h3 data-aos='fade-in' className='mobile-title'>Quips on Chips</h3>
           <a data-aos='fade-right' className='project' target='_blank' href="http://quipsonchips.surge.sh/">
             <div className="overlay">
@@ -34,25 +54,7 @@ export default class ContactForm2 extends React.Component {
             <p>JavaScript, Ruby on Rails, Ruby</p>
           </a>
 
-          <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker</h3>
-          <a data-aos='fade-right' className='project' target='_blank' href="http://travelseekers.surge.sh/">
-            <div className="overlay">
-            </div>
-            <img src="https://images.unsplash.com/photo-1503221043305-f7498f8b7888" alt="Travelseeker" />
-            <h3>TravelSeeker</h3>
-            <hr></hr>
-            <p>Find cheap places to stay and upload your pics</p>
-          </a>
-
-          <h3 data-aos='fade-in' className='mobile-title'>TravelSeeker Skills</h3>
-          <a data-aos='fade-left' className='project' target='_blank' href="http://travelseekers.surge.sh/">
-            <div className="overlay">
-            </div>
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
-            <h3>TravelSeeker Skills</h3>
-            <hr></hr>
-            <p>Express, React, JavaScript</p>
-          </a>
+          
           <h3 data-aos='fade-in' className='mobile-title'>Stock Wizard</h3>
           <a data-aos='fade-right' className='project' target='_blank' href="http://ianstockapplication.surge.sh/">
             <div className="overlay">
